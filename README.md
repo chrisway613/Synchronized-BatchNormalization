@@ -29,7 +29,7 @@ However, for the other computer vision tasks, such as semantic segmentation, whi
 
 ----------
 
-## How to use ?##
+## How to use ? ##
 
 To use the Syn-BN, I customize a data parallel wrapper named 'DataParallelWithCallBack', which inherits nn.DataParallel, it will call a callback function when in data parallel replication. This introduces a slight difference with typical usage of the nn.DataParallel.
 
