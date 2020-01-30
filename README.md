@@ -48,7 +48,7 @@ Or, if you have already defined a model wrapped in nn.DataParallel like:
 
     from torchvision import models
     
-    m = models.resnet18(pretrained=True)
+    m = models.resnet50(pretrained=True)
     m = nn.DataParallel(m, device_ids=[0,1])
     m.to(device)
 
